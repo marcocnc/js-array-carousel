@@ -6,7 +6,7 @@
 
 .main-wrapper{
     height: 100vh;
-    background-color: rgb(52, 12, 52);
+    background: linear-gradient(to top right, #5b155c 0%, #771c79 50%, #380d38 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,4 +83,8 @@
 
 .circle.active{
     background-color: #fff;
+}
+
+.hide{
+    display: none;
 }
