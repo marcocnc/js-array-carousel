@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .container{
@@ -17,7 +18,12 @@
     height: 50%;
     max-width: 600px;
     margin: 0 auto;
-    background-color: rgb(92, 21, 92);
+    border: 2px solid #000;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 50px;
 }
 
 .slider{
